@@ -1,12 +1,5 @@
-import Advertise from "./components/Advertise";
-import Footer from "./components/Footer";
-import GuideList from "./components/GuideList";
-import Header from "./components/Header";
-import History from "./components/History";
-import Navi from "./components/Navi";
-import Search from "./components/Search";
-import SellList from "./components/SellList";
 import { createGlobalStyle } from "styled-components";
+import MainPage from "./pages/MainPage";
 
 const GlobalStyle = createGlobalStyle`
   body{
@@ -27,14 +20,7 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <Header />
-      <Search />
-      <History />
-      <SellList />
-      <GuideList />
-      <Advertise />
-      <Navi />
-      <Footer />
+      <MainPage />
     </>
   );
 }

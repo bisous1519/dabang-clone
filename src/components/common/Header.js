@@ -15,7 +15,7 @@ const HeaderBox = styled.div`
     ul {
       display: flex;
       li {
-        font-size: 12px;
+        font-size: 13px;
         color: #707070;
         padding: 0 10px;
         cursor: pointer;
@@ -36,7 +36,7 @@ const HeaderBox = styled.div`
       display: flex;
       gap: 35px;
       li {
-        font-size: 14px;
+        font-size: 15px;
         cursor: pointer;
         &:hover {
           color: #006cff;
@@ -44,7 +44,7 @@ const HeaderBox = styled.div`
       }
     }
     span {
-      font-size: 12px;
+      font-size: 13px;
       color: #666666;
       cursor: pointer;
       &:hover {

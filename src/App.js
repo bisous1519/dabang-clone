@@ -2,17 +2,13 @@ import { createGlobalStyle } from "styled-components";
 import MainPage from "./pages/MainPage";
 
 const GlobalStyle = createGlobalStyle`
-  body{
-    margin: 0;
+  html {
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif' !important;
+    letter-spacing: 0.3;
+    font-weight: 300;
   }
-  ul {
-    padding: 0;
-    li {
-      list-style: none;
-    }
-  }
-  a {
-    text-decoration: none;
+  *{
+    box-sizing: border-box;
   }
 `;
 
